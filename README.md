@@ -1,2 +1,2 @@
 # scus
-Spatialy Coherent Ultrasound Simulation
+Spatially Coherent Ultrasound Simulation
