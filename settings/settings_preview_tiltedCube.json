@@ -1,0 +1,48 @@
+{
+   "Grid":{
+      "Dimension":{
+         "x":100,
+         "y":100,
+         "z":100
+      },
+      "UseRot":true,
+      "CellDim":1.0,
+      "SamplesPerCell":8,
+      "Sampler": "dart",
+      "FixedSeed":19011998,
+      "WeightingObject":{
+         "Type":"Cube",
+         "Position":{
+            "x":50,
+            "y":50,
+            "z":50
+         },
+         "Side":12.5
+      }
+   },
+   "AcquisitionZone":{
+      "Type": "Single",
+      "Dimension":{
+         "Width":50,
+         "Height":2.01,
+         "Depth":60
+      },
+      "Position":{
+         "x":20,
+         "y":50,
+         "z":50
+      },
+      "Rotation":{
+         "Angle":30,
+         "Axis":{
+            "x":2,
+            "y":0,
+            "z":1
+         }
+      }
+   },
+   "OutFile":{
+      "Mode":"SPACE",
+      "Name":"../tiltedCubeScats_preview.dat"
+   }
+}
