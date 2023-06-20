@@ -1,0 +1,47 @@
+{
+   "Grid":{
+      "Dimension":{
+         "x":100,
+         "y":100,
+         "z":100
+      },
+      "UseRot":true,
+      "CellDim":1.0,
+      "SamplesPerCell":8,
+      "Sampler": "dart",
+      "FixedSeed":20092013,
+      "WeightingObject":{
+         "Type":"Sphere",
+         "Position":{
+            "x":50,
+            "y":50,
+            "z":50
+         },
+         "Radius":5.2
+      }
+   },
+   "AcquisitionZone":{
+      "Dimension":{
+         "Width":50,
+         "Height":1.01,
+         "Depth":60
+      },
+      "Position":{
+         "x":25,
+         "y":50,
+         "z":50
+      },
+      "Rotation":{
+         "Angle":0,
+         "Axis":{
+            "x":0,
+            "y":0,
+            "z":1
+         }
+      }
+   },
+   "OutFile":{
+      "Mode":"RAW",
+      "Name":"../sphereScats.dat"
+   }
+}
